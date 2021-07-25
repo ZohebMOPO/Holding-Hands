@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holding-Hands</title>
+    <script>
+        document.getElementById("submit").onclick=function() {
+        var num=document.getElementsByName("role");
+        if(num.checked.value=="volunteer")
+        {
+            window.open("volunteer.html");
+        }
+        else{
+            window.open("client.html")
+        }
+        
+    }
+    </script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <img class="watermark" src="hearts_hand.png"/>
+       <h1 class="heading">Holding Hands</h1>
+       <p class="subheading">-----A safe place for everyone-----</p>
+    </div>
+
+    <div class="content">
+
+         <h2 class="subhead">Now, let us help you get started .</h2>
+        
+         <h3 class="subhead">Choose your role : </h3>
+         
+         <button onclick="document.location='volunteer.html'" class="buttons">Volunteer</button><br><br>
+         <button onclick="document.location='client.html'" class="buttons">Client</button>
+         
+        
+    </div>
+    <div class="contentInfoPage">
+        <h3 class="subhead">For more information, check this out :</h3>
+        <ul class="info">
+        
+       
+        <li><h4>A list of volunteers : </h4>
+        <button onclick="window.location.href='https://holdinghands.netlify.app/volunteers';" class="buttonsInfo">Volunteers</button><br></li>
+        <li><h4>To chat, click on the button below :</h4>
+        <button onclick="window.location.href='https://holdingconversations.herokuapp.com/';" class="buttonsInfo">Chat</button></li>
+    </div>
+    
+
+</body>
+</html>

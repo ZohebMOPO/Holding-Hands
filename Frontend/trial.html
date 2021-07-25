@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holding-Hands</title>
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        function other() {
+        var x = document.createElement("INPUT");
+        x.setAttribute("type", "text");
+        x.setAttribute("value", "Enter here");
+        document.getElementById("add").appendChild(x);
+        }
+
+        function otherHelp()
+       {
+        var y=document.createElement("INPUT");
+        y.setAttribute("type","text");
+        y.setAttribute("value","Enter here");
+        document.getElementById("addHelp").appendChild(y);
+       }
+        function registered(){
+        alert("Registered");
+        document.location = "infoVolunteer.html";
+        
+    }
+    </script>
+</head>
+<body>
+    
+    <div class="container">
+        <img class="watermark" src="hearts_hand.png"/>
+       <h1 class="heading">Holding Hands</h1>
+       <p class="subheading">-----A safe place for everyone-----</p>
+    </div>
+    <div class="contentVolunteer">
+    
+        <h3 class="subhead">Let us now go through some of the specifications : </h3>
+        <form><ul><br>
+            <li style="float:right;margin-right:13%">
+                
+                <p>How can you help?</p>
+                <input type="radio" id="emotional">
+                <label for="emotional">Emotional Help</label><br>
+                <input type="radio" id="financial">
+                <label for="financial">Finance Management</label><br>
+                <input type="radio" id="medical">
+                <label for="medical">Medical Help</label><br>
+                <input type="radio" class="other" onclick="otherHelp()">
+                <label for="other">Other</label><br>
+                <p id="addHelp"></p>
+        </li>
+    
+            <li style="margin-left:10%">
+                <p>How old are you?</p>
+                <input type="radio" id="below18" name="age">
+                <label for="below18">Below 18</label><br>
+                <input type="radio" id="18-40" name="age">
+                <label for="18-40">between 18 and 40 </label><br>
+                <input type="radio" id="above40" name="age">
+                 <label for="above 40">Above 40</label><br>
+            </li>   
+            <br>
+            <br>
+            <br>
+          
+    <li style="margin-left:30%">
+            <p>What is your profession?</p>
+    
+            <p style="float:right;margin-right:49%;margin-top:-3px;">
+            <input type="radio" id="student" name="prof">
+            <label for="student">Student</label><br>
+            <input type="radio" id="teacher" name="prof">
+            <label for="teacher">Teacher</label><br>
+            <input type="radio" id="job" name="prof">
+            <label for="job">Job</label><br>
+           
+            <input type="radio" id="medical" name="prof">
+            <label for="medical">Medicine</label><br></p>
+    
+            <p style="margin-left:-40px">
+            <input type="radio" id="law" name="prof">
+            <label for="law">Law</label><br>
+            <input type="radio" id="home-maker" name="prof">
+            <label for="home-maker">Home-Maker</label><br>
+            <input type="radio" id="retired" name="prof">
+            <label for="retired">Retired</label><br>
+            <input type="radio" class="other" name="prof" onclick="other()">
+            <label for="other" id="add">Other</label>
+            
+    </li>
+    </ul>
+    
+            <br>
+    <input type="submit" class="submit" onclick="registered()">
+
+
+
+   
+</body>
+</html>

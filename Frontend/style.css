@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+body {
+  background-color: cadetblue;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.watermark {
+  display: block;
+  margin: auto;
+  margin-top: 25%;
+  opacity: 0.4;
+  z-index: 99;
+  color: white;
+  width: 90%;
+  height: 80%;
+}
+.subhead {
+  text-align: center;
+}
+
+.info{
+    margin-left:30%;
+}
+
+.content {
+  margin-top: 30px;
+  margin-left: 33%;
+  width: 30%;
+  padding: 15px;
+  border-radius: 30px;
+  height: auto;
+  border: 1px solid rgb(75, 118, 119);
+  background-color: rgb(113, 205, 221);
+}
+.contentVolunteer {
+  margin-top: 30px;
+  margin-left: 25%;
+  width: 50%;
+  padding: 15px;
+  border-radius: 30px;
+  height: auto;
+  border: 1px solid rgb(75, 118, 119);
+  background-color: rgb(113, 205, 221);
+}
+.contentFront {
+  margin-top: 30px;
+  margin-left: 25%;
+  width: 50%;
+  padding: 15px;
+  border-radius: 30px;
+  height: auto;
+  border: 1px solid rgb(75, 118, 119);
+  background-color: rgb(113, 205, 221);
+}
+.contentInfo{
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 25%;
+        width: 50%;
+        padding: 15px;
+        border-radius: 30px;
+        height: auto;
+        border: 1px solid rgb(75, 118, 119);
+        background-color: rgb(113, 205, 221);
+      }
+
+.contentKid {
+  margin-top: 30px;
+  margin-left: 25%;
+  width: 50%;
+  padding: 15px;
+  border-radius: 30px;
+  height: auto;
+  border: 1px solid rgb(75, 118, 119);
+  background-color: rgb(113, 205, 221);
+}
+.contentAdult {
+  margin-top: 30px;
+  margin-left: 25%;
+  width: 50%;
+  padding: 15px;
+  border-radius: 30px;
+  height: auto;
+  border: 1px solid rgb(75, 118, 119);
+  background-color: rgb(113, 205, 221);
+}
+.contentSenior {
+  margin-top: 30px;
+  margin-left: 25%;
+  width: 50%;
+  padding: 15px;
+  border-radius: 30px;
+  height: auto;
+  border: 1px solid rgb(75, 118, 119);
+  background-color: rgb(113, 205, 221);
+}
+.contentInfoPage {
+    margin-top: 30px;
+    margin-left: 29%;
+    width: 40%;
+    padding: 15px;
+    border-radius: 30px;
+    height: auto;
+    border: 1px solid rgb(75, 118, 119);
+    background-color: rgb(113, 205, 221);
+  }
+.buttons {
+  background-color: rgb(156, 209, 202);
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 42%;
+}
+.buttonsInfo{
+   
+        background-color: rgb(156, 209, 202);
+        width: 100px;
+        padding: 10px;
+        border-radius: 10px;
+        
+      
+}
+.buttonsClient {
+  background-color: rgb(156, 209, 202);
+  width: 120px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+#contain {
+  width: fit-content;
+  text-align: center;
+}
+
+.submit {
+  margin-left: 38%;
+  width: 15%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(185, 212, 212);
+}
+
+.container {
+  margin-top: -10%;
+  color: white;
+
+  width: fit-content;
+  margin-left: 33%;
+  height: fit-content;
+}
+.heading {
+  font-size: 250%;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.subheading {
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contentClient {
+  margin-top: 30px;
+  margin-left: 25%;
+  width: 50%;
+  padding: 15px;
+  border-radius: 30px;
+  height: auto;
+  border: 1px solid rgb(75, 118, 119);
+  background-color: rgb(113, 205, 221);
+}

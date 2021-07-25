@@ -1,0 +1,59 @@
+[ 
+    {
+        "id": 1,
+        "title": "Stephaine Eckles",
+        "img": "https://randomuser.me/api/portraits/women/87.jpg",
+        "age": "20",
+        "profession": "Lecturer"
+    },
+    {
+        "id": 2,
+        "title": "Cierra Vega.",
+        "img": "https://randomuser.me/api/portraits/women/51.jpg",
+        "age": "28",
+        "profession": "Teacher"
+    },
+    {
+        "id": 3,
+        "title": "Amber Price",
+        "img": "https://randomuser.me/api/portraits/women/74.jpg",
+        "age": "20",
+        "profession": "mathematician"
+    },{
+        "id": 4,
+        "title": "Julius Villa",
+        "img": "https://randomuser.me/api/portraits/women/87.jpg",
+        "age": "26",
+        "profession": "FireFighter"
+    },{
+        "id": 5,
+        "title": "Bethany Hopkins",
+        "img": "https://randomuser.me/api/portraits/men/41.jpg",
+        "age": "22",
+        "profession": "Medic"
+    },{
+        "id": 6,
+        "title": "Cristopher Friedman",
+        "img": "https://randomuser.me/api/portraits/women/91.jpg",
+        "age": "21",
+        "profession": "Producer"
+    },{
+        "id": 8,
+        "title": "Jayvon Curry",
+        "img": "https://randomuser.me/api/portraits/men/68.jpg",
+        "age": "22",
+        "profession": "Jeweller"
+    },{
+        "id": 9,
+        "title": "Gina Lawson",
+        "img": "https://randomuser.me/api/portraits/women/35.jpg",
+        "age": "24",
+        "profession": "Agronomist"
+    },{
+        "id": 10,
+        "title": "Caleb Bell",
+        "img": "https://randomuser.me/api/portraits/women/46.jpg",
+        "age": "23",
+        "profession": "Firefighter"
+    }
+]

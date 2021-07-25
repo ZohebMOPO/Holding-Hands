@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holding-Hands</title>
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        function registered(){
+        alert("Registered");
+        document.location = "infoClient.html";
+        
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <img class="watermark" src="hearts_hand.png"/>
+       <h1 class="heading">Holding Hands</h1>
+       <p class="subheading">-----A safe place for everyone-----</p>
+    </div>
+
+    <div class="contentAdult">
+        <p>Hey. we are here to help you out with whatever you need. </p>
+        <p>Please choose all the correct options from the questions given below so that we can connect you with an expert.</p>
+
+        <form>
+            <ul>
+                
+                <li>
+                    <p>Are you a parent?</p>
+                    <input type="radio" id="yespar" name="parent">
+                    <label for="yespar">Yes</label>
+                    <input type="radio" id="nopar" name="parent">
+                    <label for="nopar">No</label>
+
+                </li>
+
+                <li>
+                    <p>Are you married?</p>
+                    <input type="radio" id="yesmar" name="married">
+                    <label for="yesmar">Yes</label>
+                    <input type="radio" id="nomar" name="married">
+                    <label for="nomar">No</label>
+
+                </li>
+                
+
+                <li>
+                    <p>Who did you lose?</p>
+                    <input type="radio" id="spouse" name="lose">
+                    <label for="spouse">Spouse</label>
+                    <input type="radio" id="child" name="lose">
+                    <label for="child">Child</label>
+                    <input type="radio" id="par" name="lose">
+                    <label for="par">Parent</label>
+                    <input type="radio" id="oth" name="lose">
+                    <label for="oth">Other</label>
+
+                </li>
+                
+
+
+                <li>
+                    <p>Do you need counselling?</p>
+                    <input type="radio" id="yescoun" name="counselling">
+                    <label for="yescoun">Yes</label>
+                    <input type="radio" id="nocoun" name="counselling">
+                    <label for="nocoun">No</label>
+
+                </li>
+
+                <li>
+                    <p>Do you need financial help?</p>
+                    <input type="radio" id="yesfin" name="finance">
+                    <label for="yesfin">Yes</label>
+                    <input type="radio" id="nofin" name="finance">
+                    <label for="nofin">No</label>
+
+                </li>
+
+                <li>
+                    <p>Do you need medical-aid?</p>
+                    <input type="radio" id="yesmed" name="medical">
+                    <label for="yesmed">Yes</label>
+                    <input type="radio" id="nomed" name="medical">
+                    <label for="nomed">No</label>
+
+                </li>
+
+
+            </ul>
+            <br>
+            
+             
+        </form>
+
+        <input type="submit" class="submit" onclick="registered()">
+    </div>
+    
+</body>
+</html>
